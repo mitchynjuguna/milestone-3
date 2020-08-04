@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Product Edit</title>
+    <link rel="stylesheet" type="text/css" href="admin.css">
+</head>
+<body>
+    <div class="header">
+        <center><img src="admin.jpg" alt="adminicon" id="image">
+        <br>Welcome To Admin Panel...!</center>
+    </div>
+    <div class="main-content">
+        <div class="sidebar">
+            <ul>
+                <a href="admin.html"><li>Bulk Upload</li></a>
+                <a href="product.html"><li>Poduct Edit</li></a>
+                <a href="logout.html"><li>Logout</li></a>
+            </ul>
+        </div>
+        <div class="admin-content">
+            <h2>Upload Files</h2>
+            <p>Click on the "Choose File" button to upload files:</p>
+            <p>(csv/xml/dat/vcf) files accepted:</p>
+            <form action="#">
+                <input type="file" id="myFile" name="filename">
+                <input type="submit">
+            </form>
+            <h2>Download Files</h2>
+            <p>Product Data - Click the Button to Download:</p>
+            <a href="#"><button class="btn"><i class="fa fa-download"></i>Download</button></a>
+        </div>
+    </div>
+</body>
+</html>
